@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
 # Declare your gem's dependencies in config_gem.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
@@ -6,7 +6,7 @@ source "http://rubygems.org"
 gemspec
 
 # jquery-rails is used by the dummy application
-gem "jquery-rails"
+gem 'jquery-rails'
 
 # Declare any dependencies that are still in development here instead of in
 # your gemspec. These might include edge Rails or gems from your path or
@@ -18,4 +18,4 @@ gem "jquery-rails"
 
 gem 'pry'
 
-gem 'rspec-rails', "~> 2.12.0"
+gem 'rspec-rails', '~> 2.12.0'

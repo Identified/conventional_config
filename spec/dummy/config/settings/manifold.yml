@@ -1,0 +1,19 @@
+paths: &paths
+  users_path: /api/v1/users/:id
+
+development:
+  <<: *paths
+  host: manifold.identified.dev
+
+test:
+  <<: *paths
+  host: test-manifold.identified.dev
+
+staging:
+  <<: *paths
+  host: stg-manifold.identified.com
+
+
+production:
+  <<: *paths
+  host: prd-manifold.identified.com

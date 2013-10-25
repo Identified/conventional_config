@@ -2,7 +2,7 @@ module ::ConventionalConfig
   class Config
     attr_accessor :path
 
-    def initialize path
+    def initialize(path)
       self.path = path
     end
 
@@ -24,7 +24,7 @@ module ::ConventionalConfig
       end
     end
 
-    def config= conf
+    def config=(conf)
       @config = conf
     end
 
@@ -32,7 +32,6 @@ module ::ConventionalConfig
       config.send(meth, *args, &block)
     end
   end
-
 
   module Configs
     # namespace for holding configs

@@ -3,12 +3,8 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require
-require "conventional_config"
+require 'conventional_config'
 
-ConventionalConfig.generate! 
-ConventionalConfig.aliases 'Cfg'
-
-puts "application.rb"
 module Dummy
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
@@ -34,7 +30,7 @@ module Dummy
     # config.i18n.default_locale = :de
 
     # Configure the default encoding used in templates for Ruby 1.9.
-    config.encoding = "utf-8"
+    config.encoding = 'utf-8'
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
