@@ -1,5 +1,8 @@
 # conventional_config
 
+[![Build Status](https://api.travis-ci.org/Identified/conventional_config.png?branch=master)](https://travis-ci.org/Identified/conventional_config)
+[![Code Climate](https://codeclimate.com/github/Identified/conventional_config.png)](https://codeclimate.com/github/Identified/conventional_config)
+
 Conventional-ized configurations for your Ruby project.
 
 ## Installation
